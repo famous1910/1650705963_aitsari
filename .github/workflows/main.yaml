@@ -1,8 +1,8 @@
 name: Build and deploy Python app to Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: 'famous-devsecops'   # set this to your application's name
-  PYTHON_VERSION: '3.12'               
+  AZURE_WEBAPP_NAME: 'famous-devsecops1'   # set this to your application's name
+  PYTHON_VERSION: '3.9'               
 on:
   push:
     branches:
